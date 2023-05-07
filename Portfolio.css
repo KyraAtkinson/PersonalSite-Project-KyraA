@@ -8,9 +8,9 @@ main > h1 {
   .placeholder {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
-    width: 100%;
-    background:  black;
-    color: white;
+     width: 100%; 
+    background:  rgb(175, 6, 226);
+    color: rgb(14, 1, 1);
     margin: 2em auto;
     padding: 5em;
   }

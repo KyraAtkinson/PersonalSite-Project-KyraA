@@ -25,7 +25,7 @@ header {
 main {
   min-height: 100vh;
   padding: 64px 24px 96px;
-  color: black;
+  color: rgb(229, 18, 229);
   font-family: 'Helvetica, Arial, sans-serif'
 }
 
