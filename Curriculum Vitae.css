@@ -1,21 +1,25 @@
-main > h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    font-size: 2rem;
-    border-bottom: 1px solid white;
-  }
-  h1, h2, h3, h4, h5 p, section {
-    font-family: Helvetica, Arial, sans-serif
-  }
-  
-  h2, h3, h4, h5 {
-    font-weight: 300;
+ h2, h3, h4 {
+    font-weight: 200;
     font-size: 20px;
-  }
-  p {
-    font-size: 13px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  } 
 
+  p {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
   } 
   section {
     border-top: 1px solid white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  h1{
+    color: black;
   }

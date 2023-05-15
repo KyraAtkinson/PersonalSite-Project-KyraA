@@ -1,0 +1,23 @@
+
+
+article{
+display: flex;
+min-height: 30vh;
+flex-direction: column;
+border: solid black 2px;
+border-radius: 8%;
+margin: 1.3rem;
+padding: 1rem;
+}
+
+ input{
+    width: 35vh;
+    height: auto;
+}
+button{
+    width: 15vh;
+    height: auto;
+}
+h2{
+    color: rgb(229, 18, 229);
+}

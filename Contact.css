@@ -1,26 +1,29 @@
-h1,p, section {
+p, section {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: medium;
+  }
+  h1{
+    font-size: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+
   }
   
-  h1 {
-    font-weight: 300;
-    font-size: 2.5rem;
+
+  .flexbox-child {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+    box-sizing:border-box;
+  
   }
-  p {
-    text-align: center;
-    font-style: italic;
-    font-size: 25px;  
-  }
+
   .content-items img{
     Height: 400px;
     width: 375px;
     padding: 0;
     margin: 0;
     float: left;
-  }
-
-  
-  
-  section {
-    border-top: 1px solid white;
   }
